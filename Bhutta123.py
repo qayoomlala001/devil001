@@ -44,7 +44,7 @@ c2 = "\033[0;97m""\033[1;32m""\033[0;97m"
 c3 = "\033[1;31m""\033[0;97m""\033[1;31m"
 os.system('git pull')
 os.system('clear')
-logo = ('echo -e "\n\n   JOKER UNITY 007    JOKER UNITY 007   \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n  JOKER UNITY 007   JOKER UNITY 007   \n  JOKER UNITY 007  JOKER UNITY 007    \n  JOKER UNITY 007  JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n         SALMAN BRAND HERE          \n-----------------------------------------------\n➣ Author : SALMAN ALI BHUTTA x Sweetie Khan\n➣ Github : https://github.com/Salmanalibhutta\n➣ Fb Page : https://m.facebook.com/SALMAN ALI Official\n➣ Ref By : (JOKER UNITY OWNERS HERE)\n➣ Ref By :     (Salman Ali X Farhan Ali X Oscar Alex) \n-----------------------------------------------" ')  
+logo = ('echo -e "\n\n   JOKER UNITY 007    JOKER UNITY 007   \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n  JOKER UNITY 007   JOKER UNITY 007   \n  JOKER UNITY 007  JOKER UNITY 007    \n  JOKER UNITY 007  JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n         SALMAN BRAND HERE          \n-----------------------------------------------\n➣ Author : SALMAN ALI BHUTTA\n➣ Github : https://github.com/Salmanalibhutta\n➣ Fb Page : https://m.facebook.com/SALMAN ALI Official\n➣ Ref By : (JOKER UNITY OWNERS HERE)\n➣ Ref By :     (Salman Ali X Farhan Ali X Oscar Alex) \n-----------------------------------------------" ')  
 def reg():
     os.system('clear')
     print logo
@@ -96,7 +96,7 @@ def reg2():
     print ''
     print ''
     raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923053176060')
+    os.system('xdg-open https://wa.me/+923086108297')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
