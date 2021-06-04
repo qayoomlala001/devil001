@@ -44,7 +44,14 @@ c2 = "\033[0;97m""\033[1;32m""\033[0;97m"
 c3 = "\033[1;31m""\033[0;97m""\033[1;31m"
 os.system('git pull')
 os.system('clear')
-logo = ('echo -e "\n\n   JOKER UNITY 007    JOKER UNITY 007   \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n  JOKER UNITY 007   JOKER UNITY 007   \n  JOKER UNITY 007  JOKER UNITY 007    \n  JOKER UNITY 007  JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n   JOKER UNITY 007   JOKER UNITY 007  \n         SALMAN BRAND HERE          \n-----------------------------------------------\n➣ Author : SALMAN ALI BHUTTA\n➣ Github : https://github.com/Salmanalibhutta\n➣ Fb Page : https://m.facebook.com/SALMAN ALI Official\n➣ Ref By : (JOKER UNITY OWNERS HERE)\n➣ Ref By :     (Salman Ali X Farhan Ali X Oscar Alex) \n-----------------------------------------------" ')  
+logo = """
+\033[1;94 __________________________________ 
+\033[1;94(______) (_) (_) (_) (_) (___)(___) (___)
+\033[1;94(_)  (_) (_) (_) (_) (_)  (_)  (_) (_) (_)
+\033[1;94(_____)  (_____) (_) (_)  (_)  (_) (_____)
+\033[1;94(_)  (_) (_) (_) (_) (_)  (_)  (_) (_) (_)
+\033[1;94(______) (_) (_) (_____)  (_)  (_) (_) (_)  
+\033[1;97m═══════════════════════════════════════════\n         SALMAN ALI BHUTTA BRAND HERE          \n-----------------------------------------------\n➣ Author : SALMAN ALI BHUTTA\n➣ Github : https://github.com/Salmanalibhutta\n➣ Fb Page : https://m.facebook.com/SALMAN ALI Official\n➣ Ref By : (ALONE FIGHTER HERE)\n➣ Ref By :(Salman Ali Bhutta) \n-----------------------------------------------" ')  
 def reg():
     os.system('clear')
     print logo
