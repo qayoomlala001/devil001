@@ -652,8 +652,8 @@ try:
                                             cp.write(uid + ' | ' + pass8 + '\n')
                                             cp.close()
                                             cps.apppend(uid + pass8)
-		except:
-            	pass
+except:
+	pass
         
 
 
