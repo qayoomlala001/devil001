@@ -657,18 +657,18 @@ except:
         
 
 
-    p = ThreadPool(30)
-    p.map(main, id)
-    print ''
-    print 47 * '-'
-    print ''
-    print ' \033[1;92mCrack Done'
-    print ' \033[1;92mTotal Ok/Cp:' + str(len(oks)) + '/' + str(len(cps))
-    print ''
-    print 47 * '-'
-    print ''
-    raw_input(' \033[1;93mPress enter to back')
-    auto_crack()
+   p = ThreadPool(30)
+   p.map(main, id)
+   print ''
+   print 47 * '-'
+   print ''
+   print ' \033[1;92mCrack Done'
+   print ' \033[1;92mTotal Ok/Cp:' + str(len(oks)) + '/' + str(len(cps))
+   print ''
+   print 47 * '-'
+   print ''
+   raw_input(' \033[1;93mPress enter to back')
+   auto_crack()
 
 
 
