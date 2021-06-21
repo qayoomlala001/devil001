@@ -535,7 +535,7 @@ def a_s():
         try:
 		data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers = header).text
 		q = json.loads(data)
-                        if 'loc' in q:
+                if 'loc' in q:
                             print '\033[1;92m[BHUTTA-OK] ' + uid + ' | ' + pass1
                             ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass1 + '\n')
