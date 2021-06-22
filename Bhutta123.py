@@ -660,7 +660,7 @@ p.map(main, id)
 print 47 * '-'
 print ' \x1b[1;92mCrack Done'
 print ' \x1b[1;92mTotal Ok/Cp:' + str(len(oks)) + '/' + str(len(cps))
-   print 47 * '-'
+print 47 * '-'
    raw_input(' \x1b[1;93mPress enter to back')
    auto_crack()
 
