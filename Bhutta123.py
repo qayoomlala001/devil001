@@ -531,8 +531,7 @@ def a_s():
     def main(arg):
         user = arg
         (uid, name) = user.split('|')
-        
-try:
+        try:
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers = header).text
             q = json.loads(data)
             if 'loc' in q:
