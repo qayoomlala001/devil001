@@ -658,7 +658,7 @@ except:
 
 
 p = ThreadPool(30)
-	p.map(main, id)
+p.map(main, id)
 print 47 * '-'
 print ' \x1b[1;92mCrack Done'
 print ' \x1b[1;92mTotal Ok/Cp:' + str(len(oks)) + '/' + str(len(cps))
