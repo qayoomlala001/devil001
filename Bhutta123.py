@@ -232,7 +232,7 @@ def log_cookie():
     try:
         cookie = raw_input(' Paste cookies here: ')
         data = {
-            'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/602.1 (KHTML, like Gecko) cutycapt Version/9.0 Safari/602.1',
+            'user-agent': 'Mozilla/5.0 (Linux; Android 10.0; Build/QTS1.210311.008; App/com.google.stadia.androidtv) AppleWebKit/537.36 (Cobalt/21.lts.3 unlike Gecko) Safari/537.36',
             'referer': 'https://m.facebook.com/',
             'host': 'm.facebook.com',
             'origin': 'https://m.facebook.com',
