@@ -34,7 +34,7 @@ header = {
     'x-fb-net-hni': repr(sim),
     'x-fb-connection-quality': 'EXCELLENT',
     'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA',
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 OPR/77.0.4054.203;]',
+    'user-agent': 'Dalvik/2.1.0 (Android 9; L-03K Build/PKQ1.190522.001) [FBAN/MessengerLite;FBAV/141.0.0.2.117;FBPN/com.facebook.mlite;FBLC/en_US;FBBV/293513921;FBCR/Airtel;FBMF/LGE;FBBD/lge;FBDV/L-03K;FBSV/9;FBCA;]',
     'content-type': 'application/x-www-form-urlencoded',
     'x-fb-http-engine': 'Liger' }
 os.system('git pull')
